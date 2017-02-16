@@ -28,13 +28,16 @@ android-cts\repository\results 存在执行的报告，index.html 是报告的�
 多个设备可同时进行，报告是分开的，默认执行50次会生成一个报告，之后会循环执行
 
 # 报告截图
-index
+## index
+
 ![](./android-cts/resource/index.png)
 
-result
+## result
+
 ![](./android-cts/resource/result.png)
 
-trace
+## trace
+
 ![](./android-cts/resource/trace.png)
 
 
