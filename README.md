@@ -91,16 +91,3 @@ test options:
 17. monkey-log-size:如果针对某一个应用测试,该工具为该app单独收集log,这里可以设置log可以最大到多少B.
 18. bugreport:是否保存bugreport信息,默认为false.如果研发想要bugreport信息,将该属性设置为true.
 19. tracefile:是否保存trace.txt文件,该文件位于/data/anr/trace.txt.一般发生crash的时候会用到该文件分析问题.
-
-
-
-
-
-
-
- 
-
-
-
-
-
