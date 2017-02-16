@@ -1,9 +1,12 @@
 # 简介
 这个项目是CrashMonkey4Android可执行文件
 
-该项目从 [CrashMonkey4Androd_bin]https://github.com/DoctorQ/CrashMonkey4Androd_bin 复制而来
-原版不支持64位java，只支持32位的，有些不便，并且修改了一些内部逻辑，把CrashMonkey4Android 和CrashMonkey4Android_tradefederation 重新打包
-这个项目是CrashMonkey4Android可执行文件
+该项目从 https://github.com/DoctorQ/CrashMonkey4Androd_bin 复制而来
+
+原版不支持64位java，只支持32位的
+
+此版本支持java 64位，并且修改了一些内部逻辑，把CrashMonkey4Android 和CrashMonkey4Android_tradefederation 重新打包
+
 
 
 # CrashMonkey4Android 简介
