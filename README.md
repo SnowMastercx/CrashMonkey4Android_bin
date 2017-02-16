@@ -17,9 +17,13 @@ CrashMonkey4Android,是一个依靠Cts框架,对原生Monkey进行改造后的�
  5. Html报告.
  6. 支持多设备.
  
-# 报告
+# 执行和报告
+找到tools文件夹下的启动脚本，windoes执行 start.bat   mac执行 start;
+在打开的窗口命令行中输入  run cts --p 测试app的包名 --a 测试app的主activity
+
 android-cts\repository\logs  存放执行日志和截图
 android-cts\repository\results 存在执行的报告，index.html 是报告的入口
+
 多个设备可同时进行，报告是分开的，默认执行50次会生成一个报告，之后会循环执行
 
 # 环境要求
