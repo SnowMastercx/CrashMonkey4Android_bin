@@ -33,7 +33,7 @@ CrashMonkey4Android,是一个依靠Cts框架,对原生Monkey进行改造后的�
 
 ## 查看参数
 
-> 我们可以通过在命令行下输入`run cts --help-all` 获取所有的可设置参数:
+> 我们可以通过在命令行下输入```run cts --help-all``` 获取所有的可设置参数:
 
 ```
 test options:
