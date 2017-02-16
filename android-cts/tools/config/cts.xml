@@ -23,7 +23,7 @@
     <option
         name="wifiPsk"
         value="" /> -->
-    <option
+	<option
         name="plan"
         value="Monkey" 
         desc="plan"/>
@@ -42,10 +42,11 @@
         name="v"
         value="50" 
         desc="事件数"/>
+
     <option
         name="throttle"
         value="100" 
-        desc="事件之间插入的固定延迟,默认为300毫秒"/>
+        desc="事件之间插入的固定延迟,默认为100毫秒"/>
 
     <option
         name="reboot"
@@ -65,7 +66,7 @@
     <option
         name="device-unlock"
         desc="是否解锁,默认为不解锁"
-        value="false" />
+        value="true" />
 
     <option
         name="bugreport"
@@ -88,10 +89,7 @@
         name="pct-syskeys"
         desc="系统事件百分比"
         value="5" />
-	<!--<option
-        name="pct-appswitch"
-		value="40"
-        desc="调整启动Activity的百分比" /> -->
+
 
     <build_provider class="com.android.cts.tradefed.build.CtsBuildProvider" />
 
