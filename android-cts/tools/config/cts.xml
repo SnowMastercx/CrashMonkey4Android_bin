@@ -23,7 +23,7 @@
     <option
         name="wifiPsk"
         value="" /> -->
-	<option
+    <option
         name="plan"
         value="Monkey" 
         desc="plan"/>
@@ -42,12 +42,6 @@
         name="v"
         value="50" 
         desc="事件数"/>
-
-    <option
-        name="p"
-        value="com.tuniu.app.ui"   
-        desc="Monkey将只允许系统启动这些包里的Activity"/>
-
     <option
         name="throttle"
         value="100" 
