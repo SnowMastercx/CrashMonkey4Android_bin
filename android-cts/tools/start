@@ -83,3 +83,4 @@ done
 
 java $RDBG_FLAG \
   -cp ${JAR_PATH} -DCTS_ROOT=${CTS_ROOT} com.android.cts.tradefed.command.CtsConsole "$@"
+  
