@@ -23,7 +23,11 @@
     <option
         name="wifiPsk"
         value="" /> -->
-        <!--
+	<option
+        name="plan"
+        value="Monkey" 
+        desc="plan"/>
+
     <option
         name="p"
         value="NA" 
@@ -32,25 +36,22 @@
     <option
         name="a"
         value="NA" 
-        desc="主activity"/> -->
+        desc="主activity"/>
 
     <option
         name="v"
-        value="20" 
+        value="50" 
         desc="事件数"/>
 
-    <!-- <option
-        name="app-path"
-        value="NA"   
-        desc="需要从本地安装的app的路径"/> -->
+    <option
+        name="p"
+        value="com.tuniu.app.ui"   
+        desc="Monkey将只允许系统启动这些包里的Activity"/>
 
     <option
         name="throttle"
-        value="300" 
-        desc="默认为300毫秒"/>
-
-    
-   
+        value="100" 
+        desc="事件之间插入的固定延迟,默认为300毫秒"/>
 
     <option
         name="reboot"
@@ -80,37 +81,23 @@
     <option
         name="tracefile"
         desc="是否保存trace.txt文件，默认不保存"
-        value="false" />
-
+        value="true" />
     <option
-        name="pct-tap"
+        name="pct-touch"
         desc="点击事件的百分比"
-        value="25" />
-
+        value="70" />
     <option
         name="pct-motion"
-        desc="点击事件的百分比"
-        value="0" />
-
-    <option
-        name="pct-drag"
-        desc="点击事件的百分比"
-        value="30" />
-
-    <option
-        name="pct-nav"
-        desc="点击事件的百分比"
-        value="15" />
-
-    <option
-        name="pct-majornav"
-        desc="点击事件的百分比"
-        value="15" />
-
+        desc="多点滑动事件百分比"
+        value="25" />
     <option
         name="pct-syskeys"
-        desc="点击事件的百分比"
-        value="15" />
+        desc="系统事件百分比"
+        value="5" />
+	<!--<option
+        name="pct-appswitch"
+		value="40"
+        desc="调整启动Activity的百分比" /> -->
 
     <build_provider class="com.android.cts.tradefed.build.CtsBuildProvider" />
 
