@@ -40,7 +40,7 @@
 
     <option
         name="v"
-        value="50" 
+        value="100" 
         desc="事件数"/>
 
     <option
