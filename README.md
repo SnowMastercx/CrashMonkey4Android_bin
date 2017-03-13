@@ -13,7 +13,7 @@
 
 2.logcat默认是有缓存的，现在收集log之前先清理了缓存，解决多次循坏执行日志相互重叠的问题
 
-3.monkey命令之前100ms延迟，大概是1分钟执行100次monkey事件
+3.monkey命令100ms延迟，大概是1分钟执行100次monkey事件
 
 # CrashMonkey4Android 简介
 
