@@ -7,14 +7,17 @@
 
 此版本支持java 64位，并且修改了一些内部逻辑，把CrashMonkey4Android 和CrashMonkey4Android_tradefederation 重新打包
 
+# 2017-3-13更新
 
+1.去掉了每个monkey操作时候的截图，实际执行感觉截图作用不大，而且很耗费时间
+2.logcat默认是有缓存的，现在收集log之前先清理了缓存，解决多次循坏执行日志相互重叠的问题
 
 # CrashMonkey4Android 简介
 
 CrashMonkey4Android,是一个依靠Cts框架,对原生Monkey进行改造后的产物,拥有以下新增功能:
 
  1. 保存每一步的截图.
- 2. 保存logcat.
+ ~~2. 保存logcat（去掉了）.~~
  3. 保存每一个Monkey事件的信息.
  4. 分析Crash.
  5. Html报告.
