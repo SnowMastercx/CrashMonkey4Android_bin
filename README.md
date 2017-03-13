@@ -19,8 +19,8 @@
 
 CrashMonkey4Android,是一个依靠Cts框架,对原生Monkey进行改造后的产物,拥有以下新增功能:
 
- 1. 保存每一步的截图.
- ~~2. 保存logcat（去掉了）.~~
+ ~~1. 保存每一步的截图.~~
+ 2. 保存logcat（去掉了）.
  3. 保存每一个Monkey事件的信息.
  4. 分析Crash.
  5. Html报告.
